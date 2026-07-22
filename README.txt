@@ -1,21 +1,26 @@
-ECO TRASH WEBSITE — VERCEL FIXED PACKAGE
+ECO TRASH WEBSITE — READABILITY UPDATE
 
-This repository is deliberately structured for Vercel static hosting:
+This update uses the same Vercel structure as the previous working package.
 
-- vercel.json is at the repository root.
-- public/index.html is the homepage.
-- vercel.json forces the Vercel Output Directory to public.
+UPLOAD OVER THE EXISTING GITHUB REPOSITORY
+1. Extract this ZIP.
+2. Open the existing GitHub repository.
+3. Choose Add file, then Upload files.
+4. Drag the extracted public folder, vercel.json and README.txt into the upload page.
+5. Commit the changes. Matching files will be replaced and new generated assets will be added.
+6. Let Vercel redeploy the new commit, then open the newest deployment URL.
 
-UPLOAD STEPS
-1. Extract the ZIP on your computer.
-2. In GitHub, remove the files from the previous attempt or create a new empty repository.
-3. Upload the extracted public folder, vercel.json and this README.txt directly to the repository root.
-4. Confirm GitHub shows these three items at the top level:
-   public/
-   vercel.json
-   README.txt
-5. Redeploy the latest commit in Vercel.
+You do not need to delete the previous files. Older generated _next assets are harmless because the updated public/index.html references only the current files.
 
-Do not upload the ZIP without extracting it.
-Do not move index.html out of the public folder.
-No build command, output setting, environment variables or backend are required; vercel.json supplies the output directory automatically.
+This version includes:
+- Complete uncropped header logo
+- Larger navigation and contact text
+- Larger operational photos
+- Larger four-point green service strip
+- No clickable phone, email or text links
+- No external-app prompts
+
+Repository root must continue to contain:
+public/
+vercel.json
+README.txt
