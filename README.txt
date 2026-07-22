@@ -1,25 +1,19 @@
-ECO TRASH WEBSITE — MOBILE CONTACT & LAYOUT UPDATE
+ECO TRASH WEBSITE — MOBILE PRESENTATION FIX
 
-This ZIP uses the same working Vercel structure as your current GitHub repository.
-
-UPLOAD WITHOUT DELETING THE PREVIOUS FILES
+UPLOAD WITHOUT DELETING PREVIOUS FILES
 1. Extract this ZIP.
-2. Open the existing GitHub repository.
-3. Choose Add file, then Upload files.
-4. Drag the extracted public folder, vercel.json and README.txt into GitHub.
-5. Commit the changes and let Vercel redeploy.
+2. Upload the public folder, vercel.json and README.txt into the existing GitHub repository.
+3. Commit the uploaded files and allow Vercel to redeploy.
 
-You do not need to delete old files. Matching files will be replaced and the new generated assets will be added. Older generated _next files are harmless because public/index.html references only the current assets.
+You do not need to delete old files. The updated public/index.html references the new generated assets.
 
 THIS VERSION INCLUDES
-- Email stays on one line without cutting off the final letter.
-- Mobile images use their own responsive grid positions and no longer overlap text.
-- On phones, quote and bin inquiry buttons open the phone app with 647-801-2467.
-- On phones, email buttons open the configured email composer with Ecotrashdisposal@gmail.com and a quote-request subject filled in.
-- The Text Us button opens the phone messaging app with the company number.
-- On desktop, phone and email buttons show the contact information on the page instead of opening another app.
-- About Us, How We Operate and informational navigation remain normal in-page links.
-- Site sharing metadata now uses ecotrashdisposal.ca.
+- Proper separation between “Same-day delivery available” and “Quotes in minutes.”
+- A single full-width mobile hero image with a balanced responsive height.
+- The narrow secondary mobile image is removed on phone and tablet layouts.
+- Mobile images remain inside their own layout area and do not overlap text.
+- Phone, email, quote and bin inquiry behavior from the previous update is preserved.
+- Desktop contact buttons continue displaying the contact details on the page.
 
 Repository root must contain:
 public/
