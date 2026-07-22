@@ -1,19 +1,20 @@
-ECO TRASH WEBSITE — MOBILE PRESENTATION FIX
+ECO TRASH WEBSITE — MOBILE OVERFLOW & IMAGE FIX
 
 UPLOAD WITHOUT DELETING PREVIOUS FILES
 1. Extract this ZIP.
 2. Upload the public folder, vercel.json and README.txt into the existing GitHub repository.
-3. Commit the uploaded files and allow Vercel to redeploy.
+3. Commit the files and allow Vercel to redeploy.
 
-You do not need to delete old files. The updated public/index.html references the new generated assets.
+You do not need to delete old files. The new public/index.html references the current generated assets.
 
 THIS VERSION INCLUDES
-- Proper separation between “Same-day delivery available” and “Quotes in minutes.”
-- A single full-width mobile hero image with a balanced responsive height.
-- The narrow secondary mobile image is removed on phone and tablet layouts.
-- Mobile images remain inside their own layout area and do not overlap text.
-- Phone, email, quote and bin inquiry behavior from the previous update is preserved.
-- Desktop contact buttons continue displaying the contact details on the page.
+- Horizontal overflow is contained across the complete mobile page.
+- Users can no longer swipe sideways into a blank white area.
+- The mobile hero uses one full-width 4:5 image frame.
+- The compressed secondary image is forcibly removed on mobile.
+- The main photo uses object-fit cover so it keeps its proportions without stretching.
+- The mobile status line can wrap safely without pushing the page wider.
+- All phone, email and quote actions remain unchanged.
 
 Repository root must contain:
 public/
