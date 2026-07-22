@@ -1,22 +1,21 @@
-ECO TRASH WEBSITE — MOBILE OVERFLOW & IMAGE FIX
+ECO TRASH — PORTRAIT MOBILE PROFESSIONAL UPDATE
 
-UPLOAD WITHOUT DELETING PREVIOUS FILES
+UPLOAD TO GITHUB / VERCEL
 1. Extract this ZIP.
-2. Upload the public folder, vercel.json and README.txt into the existing GitHub repository.
-3. Commit the files and allow Vercel to redeploy.
+2. Upload the extracted public folder, vercel.json, and README.txt to the root of the existing GitHub repository.
+3. Replace matching files when GitHub asks. You do not need to delete the existing repository first.
+4. Vercel will redeploy automatically after the commit.
 
-You do not need to delete old files. The new public/index.html references the current generated assets.
+PORTRAIT MOBILE IMPROVEMENTS
+- Dedicated one-column portrait layout for phone screens.
+- No horizontal swipe area or blank block beside the page.
+- Hero truck photo uses its natural 3:4 portrait proportion and object-fit cover.
+- The small overlapping hero photo is removed on portrait phones.
+- Gallery images use fixed proportions without stretching.
+- Gallery captions sit below their images, never over the image or other text.
+- Navigation, headings, service cards, bin cards, process steps and footer are sized for comfortable portrait use.
+- Phone and email remain available from the fixed bottom contact bar.
 
-THIS VERSION INCLUDES
-- Horizontal overflow is contained across the complete mobile page.
-- Users can no longer swipe sideways into a blank white area.
-- The mobile hero uses one full-width 4:5 image frame.
-- The compressed secondary image is forcibly removed on mobile.
-- The main photo uses object-fit cover so it keeps its proportions without stretching.
-- The mobile status line can wrap safely without pushing the page wider.
-- All phone, email and quote actions remain unchanged.
-
-Repository root must contain:
-public/
-vercel.json
-README.txt
+CONTACT
+Phone: 647-801-2467
+Email: Ecotrashdisposal@gmail.com
